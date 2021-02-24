@@ -3,5 +3,23 @@ body{
 }
 h1{
   text-align: center;
+  color: #820EAA;
   font-family: 'Courgette', cursive;
+}
+h2, h3, h4{
+  text-align: center;
+  color: #36AA0E;
+  font-family: 'Courgette', cursive;
+}
+p{
+  text-align: center;
+  font-family: 'Cookie', cursive;
+  font-size: 22px;
+  color: #1A1A1A;
+}
+.header{
+  border-width: medium;
+  border-color: #000000;
+  border-style: solid;
+  background-color: #400F08;
 }
