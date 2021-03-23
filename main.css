@@ -1,0 +1,38 @@
+body{
+  background-color: #540804;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+header{
+  width: 75vw;
+  margin: 25px auto;
+  border-color: #000000;
+  border-style: dashed;
+}
+main{
+  width: 75vw;
+  margin: 25px auto;
+  background-color: #81171B;
+  display: flow-root;
+}
+.col{
+  width: 50%;
+  background-color: #AD2E24;
+  float: left;
+  border-style: groove;
+}
+@media screen and (max-width: 900px) {
+  .col{
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  header{
+    width: 90vw;
+  }
+  main{
+    width: 90vw;
+  }
+  h1{
+    font-size: 3rem;
+  }
+}
