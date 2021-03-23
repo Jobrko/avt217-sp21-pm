@@ -1,10 +1,19 @@
+body{
+  background-color: dodgerblue;
+}
 .black{
   background-color: #111111;
   width: 100px;
   height: 100px;
+  float: left;
 }
 .red{
   background-color: tomato;
   width: 100px;
   height: 100px;
+  float: left;
+}
+.board{
+  width: 800px;
+  display: flow-root;
 }
