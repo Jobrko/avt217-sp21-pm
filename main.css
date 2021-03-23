@@ -15,6 +15,32 @@ main{
   background-color: #81171B;
   display: flow-root;
 }
+h1 {
+  color: #000000;
+  font-size: 47px;
+}
+h2 {
+  color: #8793A0;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: #8E9CAA;
+  text-decoration: none;
+}
+li {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: left;
+  letter-spacing: 1px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 .col{
   width: 50%;
   background-color: #AD2E24;
