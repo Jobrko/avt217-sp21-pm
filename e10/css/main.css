@@ -16,4 +16,5 @@ body{
 .board{
   width: 800px;
   display: flow-root;
+  margin: 100px auto;
 }
