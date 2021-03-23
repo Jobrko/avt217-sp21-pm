@@ -1,0 +1,154 @@
+main {
+  width: 132vw;
+  margin: -50px -15vw;
+}
+
+#p1 .shape1 {
+  width: 110px;
+  height: 110px;
+  background-color: #484041;
+  margin:-10px;
+  float: left;
+  opacity: .8;
+  border-radius: 50%;
+}
+#p1 .shape2 {
+  width: 110px;
+  height: 110px;
+  background-color: #434371;
+  margin:-10px;
+  float: left;
+  opacity: .8;
+  border-radius: 50%;
+}
+#p1 .shape3 {
+  width: 110px;
+  height: 110px;
+  background-color: #79AEA3;
+  margin:-10px;
+  float: left;
+  opacity: .8;
+  border-radius: 50%;
+}
+#p1 .shape4 {
+  width: 110px;
+  height: 110px;
+  background-color: #70EE9C;
+  margin:-10px;
+  float: left;
+  opacity: .8;
+  border-radius: 50%;
+}
+
+#p2 .circle3 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(132, 112, 255);
+  border-radius: 50%;
+  float: left;
+  opacity: .5;
+  margin: -10px;
+}
+#p2 .triangle3 {
+      width: 300;
+      height: 300;
+      opacity: .5;
+      float: left;
+      margin: -20px;
+      border: 5px solid black;
+}
+#p2 .square3 {
+  width: 200px;
+  height: 200px;
+  background: #FFC1C1;
+  opacity: .5;
+  float: left;
+  margin: -10px;
+  transform: rotate(45deg);
+}
+
+#p3 .shape1 {
+  width: 120px  ;
+  height: 120px ;
+  background-color: #A2FAA3;
+  float:left;
+  margin: -10px;
+  opacity: .8;
+  border: 5px dashed black;
+  transform: rotate(45deg);
+}
+#p3 .shape2 {
+  width: 120px  ;
+  height: 120px ;
+  background-color: #92C9B1  ;
+  float:left;
+  margin: -10px;
+  border: 5px double darkmagenta;
+  border-radius: 50%;
+}
+#p3 .shape3 {
+  width: 120px  ;
+  height: 120px ;
+  background-color: #4F759B ;
+  float:left;
+  margin: -10px;
+  opacity: .8;
+  border: 5px dashed black;
+  transform: rotate(45deg);
+}
+
+#p4 .shape1 {
+  width: 25px;
+  height: 25px;
+  float: left;
+  background-color: black;
+  margin: 0px;
+  top: 0px;
+  border: solid 5px black;
+  padding: 5px;
+  outline: 5px solid white;
+  background-clip: content-box;
+}
+
+#p5 .shape1 {
+  width: 300px;
+  height: 300px;
+  float: left;
+  background-color: #45050C;
+  margin: 0px;
+  top: 0px;
+  border: solid 25px #D5AC4E;
+  padding: 25px;
+  outline: 25px solid gray;
+  background-clip: content-box;
+  transform: rotate(45deg);
+  opacity: .7;
+}
+#p5 .shape2 {
+  width: 300px;
+  height: 300px;
+  float: left;
+  background-color: #720E07;
+  margin: 0px;
+  top: 0px;
+  border: solid 25px #D5AC4E;
+  padding: 25px;
+  outline: 25px solid gray;
+  background-clip: content-box;
+  transform: rotate(45deg);
+  opacity: .7;
+}
+#p5 .shape3 {
+  width: 300px;
+  height: 300px;
+  float: left;
+  background-color: #8B6220;
+  margin: 0px;
+  top: 0px;
+  border: solid 25px #D5AC4E;
+  padding: 25px;
+  outline: 25px solid gray;
+  background-clip: content-box;
+  transform: rotate(45deg);
+  opacity: .7;
+}
