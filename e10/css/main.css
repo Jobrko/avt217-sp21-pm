@@ -1,6 +1,9 @@
 body{
   background-color: dodgerblue;
 }
+h1{
+  color: #7DA27E;
+}
 .black{
   background-color: #111111;
   width: 100px;
