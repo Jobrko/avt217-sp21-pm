@@ -23,14 +23,16 @@ h2{
 h3{
   font-size: 140px;
 }
+p{
+  font-family: 'Montserrat', sans-serif;
+  text-indent: 50px;
+  line-height: 1.5;
+}
 @media only screen and (max-width: 1440px){
   h1{
-    color: #D46767;
-    transform: rotate(5deg);
     font-size: 100px;
   }
   h2{
-    color: #BB851B;
     font-size: 100px;
   }
   h3{
@@ -39,12 +41,9 @@ h3{
 }
 @media only screen and (max-width: 510px){
   h1{
-    color: #D46767;
-    transform: rotate(5deg);
     font-size: 70px;
   }
   h2{
-    color: #BB851B;
     font-size: 50px;
   }
   h3{
