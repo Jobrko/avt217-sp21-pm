@@ -2,8 +2,52 @@ body{
   background: #f0f0f0;
 }
 .header{
-  background: red;
+  background: white;
 }
 .content{
   background: green;
+}
+h1, h2, h3{
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+}
+h1{
+  color: #D46767;
+  transform: rotate(5deg);
+  font-size: 300px;
+}
+h2{
+  color: #BB851B;
+  font-size: 145px;
+}
+h3{
+  font-size: 140px;
+}
+@media only screen and (max-width: 1440px){
+  h1{
+    color: #D46767;
+    transform: rotate(5deg);
+    font-size: 100px;
+  }
+  h2{
+    color: #BB851B;
+    font-size: 100px;
+  }
+  h3{
+    font-size: 100px;
+  }
+}
+@media only screen and (max-width: 510px){
+  h1{
+    color: #D46767;
+    transform: rotate(5deg);
+    font-size: 70px;
+  }
+  h2{
+    color: #BB851B;
+    font-size: 50px;
+  }
+  h3{
+    font-size: 50px;
+  }
 }
