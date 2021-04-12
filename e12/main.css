@@ -1,11 +1,11 @@
 body{
-  background: #f0f0f0;
+  background: #b99566;
 }
 .header{
-  background: white;
+  background: #d5b78b;
 }
 .content{
-  background: green;
+  background: #d5b78b;
 }
 h1, h2, h3{
   font-family: 'Dancing Script', cursive;
