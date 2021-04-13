@@ -1,0 +1,53 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: sandybrown;
+}
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.monitor{
+  width: 350px;
+  height: 200px;
+  background: #000;
+  border-bottom: 30px solid #d8d8d8; /* Gray bottom, edit later */
+  border-radius: 10px;
+  animation-name: screensaver;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+}
+@keyframes screensaver {
+  0% {background: #000;}
+  25% {background: #a8e3c7;}
+  50% {background: #7de0d1;}
+  75% {background: #61cfde;}
+  100% {background: #14b6db;}
+}
+.monitor::before /* Stand Base */{
+  content: '';
+  width: 70px;
+  height: 60px;
+  background: #bdbdbd;
+  position: absolute;
+  left: 50%;
+  bottom: -35px;
+  transform: perspective(100px) translateX(-50%) rotateX(25deg) skewX(7deg);
+  z-index: -1;
+  transform-origin: bottom;
+}
+.monitor::after /* */{
+  content: '';
+  width: 140px;
+  height: 15px;
+  background: #d8d8d8;
+  position: absolute;
+  left: 50%;
+  bottom: -50px;
+  transform: translateX(-50%);
+  z-index: -1;
+  transform-origin: bottom;
+}
