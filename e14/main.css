@@ -8,6 +8,7 @@ body {
     margin: 0 auto;
 }
 .center{
+  background-color: dodgerblue;
   margin: 0;
   min-width: 400px;
   border: 3px solid green;
