@@ -13,7 +13,7 @@
    if(x == y)
    {
        alert("CONGRATULATIONS!!! YOU GUESSED IT RIGHT IN "
-               + guess + " GUESS ");
+               + guess + " GUESS(s) ");
    }
    else if(x > y) /* if guessed number is greater
                    than actual number*/
