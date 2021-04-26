@@ -1,5 +1,5 @@
 // random value generated
-    var y = Math.floor(Math.random() * 10 + 1);
+    var y = Math.floor(Math.random() * 200 + 1);
     // counting the number of guesses
     // made for correct Guess
     var guess = 1;
