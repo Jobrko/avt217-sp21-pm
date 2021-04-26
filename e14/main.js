@@ -1,45 +1,29 @@
-window.onload = init;
-var temp = 0;
-var level = 1;
-var guesses = 3;
+// random value generated
+    var y = Math.floor(Math.random() * 10 + 1);
 
-function init(){
-  rand();
- }
+    // counting the number of guesses
+    // made for correct Guess
+    var guess = 1;
 
-function rand(){
-  temp = Math.floor((Math.random()*6)+1);
-  $("div.box").click(function() {
-      if (temp == $(this).data("id")) {
-          correct();
-      } else {
-          $(this).animate({"opacity": "0.25"}, "slow");
-          incorrect();
-      }
-  });
-}
+    document.getElementById("submitguess").onclick = function(){
 
-function correct(){
-  $("#result").html("You are correct!");
-    level++;
-    reset();
-}
+   // number guessed by user
+   var x = document.getElementById("guessField").value;
 
-function incorrect(){
-  $("#result").html("Sorry, you are incorrect.");
-    guesses--;
-   document.getElementById("guesses").innerHTML = guesses;
-    if (guesses == 0){
-     level = 1;
-      reset();
-      document.getElementById("result").innerHTML = "Guess a color";
+   if(x == y)
+   {
+       alert("CONGRATULATIONS!!! YOU GUESSED IT RIGHT IN "
+               + guess + " GUESS ");
    }
-}
-
-function reset(){
-  $(".box").animate({"opacity": "1"}, "slow");
-  guesses = 3;
-  temp = Math.floor((Math.random()*6)+1);
-  document.getElementById("level").innerHTML = level;
-  document.getElementById("guesses").innerHTML = guesses;
+   else if(x > y) /* if guessed number is greater
+                   than actual number*/
+   {
+       guess++;
+       alert("OOPS SORRY!! TRY A SMALLER NUMBER");
+   }
+   else
+   {
+       guess++;
+       alert("OOPS SORRY!! TRY A GREATER NUMBER")
+   }
 }

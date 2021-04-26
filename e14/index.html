@@ -6,36 +6,13 @@
     <link rel="stylesheet" href="main.css">
   </head>
   <body>
-    <div id="container1">
-    <div id="header">
-      <h1>Josiah's Guessing Game</h1>
+    <h1>Guess the Number!</h1>
+    <p>See if you can guess a number between 1 - 10.</p>
+    <div class="form">
+      <label for="guessField">Enter a guess: </label>
+      <input type="text" id="guessField" class="guessField">
+      <input type="submit" value="Submit guess" class="guessSubmit" id="submitguess">
     </div>
-    <div id="content">
-      <h1>Guessing Game</h1>
-      <div id="game">
-        <div class="box" id="one" data-id="1">
-
-        </div>
-        <div class="box" id="two" data-id="2">
-
-        </div>
-        <div class="box" id="three" data-id="3">
-
-        </div>
-        <div class="box" id="four" data-id="4">
-
-        </div>
-        <div class="box" id="five" data-id="5">
-
-        </div>
-        <div class="box" id="six" data-id="6">
-
-        </div>
-      </div>
-      <p id="result">Guess a color.</p>
-      <p>Remaining guesses: <span id="guesses">3</span></p>
-      <h2>Level <span id="level">1</span></h2>
-    </div>
-  </div>
+    <script src="main.js"></script>
   </body>
 </html>
