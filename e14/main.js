@@ -41,4 +41,5 @@ function reset(){
   guesses = 3;
   temp = Math.floor((Math.random()*6)+1);
   document.getElementById("level").innerHTML = level;
+  document.getElementById("guesses").innerHTML = guesses;
 }
