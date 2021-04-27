@@ -3,18 +3,23 @@ body{
   text-align: center;
   font-family: 'Lato', sans-serif;
 }
-header{
-  width: 75vw;
+header {
+  width:75vw;
   margin: 25px auto;
   border-color: #000000;
   border-style: dashed;
 }
-main{
+main {
   width: 75vw;
   margin: 25px auto;
-  background-color: #81171B;
   display: flow-root;
+  background-color: #81171B;
+  border-style: groove;
 }
+.col {
+  width: 50%;
+  float: left;
+  }
 h1 {
   color: #000000;
   font-size: 47px;
@@ -40,12 +45,6 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-}
-.col{
-  width: 50%;
-  background-color: #AD2E24;
-  float: left;
-  border-style: groove;
 }
 @media screen and (max-width: 900px) {
   .col{
